@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FreshMart Provisions</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+     <header class="navbar">
+        <div class="nav-container">
+            <a href="" class="logo">
+                <h2><img src="./Images/BackgroundEraser_20260727_192844194.png" alt="" class="kola">ETECOLE</h2>
+            </a>
+            <nav class="nav-links">
+                <ul class="navlinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="">🛒Cart (<span id="cart-count">0</span>)</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="" class="btn btn-ghost">
+                    Login
+                </a>
+                <a href="" class="btn btn-primary">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+             <div class="home">
+                <img src="./Images/ETECOLE.png" alt="" class="jjk">
+             </div>
+          
+        </div>
+    </section>
+
+
+    <!-- Products -->
+    <section id="products" class="products-section">
+
+        <h2>Our Products</h2>
+
+        <div class="products"> 
+         <div class="sale">
+        <img src="./Images/gag.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>Xtreme Grab"N"Go</h3>
+            <p class="ag">₦10,800</p>
+            <button onclick="addToCart('Xtreme GrabNGo', 10800)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/milk.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>Milk Power</h3>
+            <p class="ag">₦4,500</p>
+             <button onclick="addToCart('Milk Power', 4500)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/belloxi.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>Beloxxi</h3>
+            <p class="ag">₦3,500</p>
+             <button onclick="addToCart('Belloxi', 3500)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+    <div class="products"> 
+         <div class="sale">
+        <img src="./Images/indomie.jpg" alt="">
+        <div class="ga">
+            <h3>Indomie: Indomitables</h3>
+            <p class="ag">₦4,500</p>
+            <button onclick="addToCart('Indomie', 4500)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/egg.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>Crate Of Eggs</h3>
+            <p class="ag">₦5,800</p>
+             <button onclick="addToCart('Crate Of Eggs', 5800)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/spag.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>Spaghetti</h3>
+            <p class="ag">₦19,000</p>
+             <button onclick="addToCart('Spaghetti', 19000)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+     <div class="products"> 
+         <div class="sale">
+        <img src="./Images/spoon.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>Plastic Spoons</h3>
+            <p class="ag">₦900</p>
+            <button onclick="addToCart('Plastic Spoons', 900)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/fork.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>Plastic Forks</h3>
+            <p class="ag">₦1,000</p>
+             <button onclick="addToCart('Plastic Forks', 1000)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/plas.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>Plastic TakeAway Food Packs</h3>
+            <p class="ag">₦11,000</p>
+             <button onclick="addToCart('Plastic TakeAway Food Packs', 11000)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+     <div class="products"> 
+         <div class="sale">
+        <img src="./Images/fo.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>Foam TakeAway Food Packs</h3>
+            <p class="ag">₦3,000</p>
+            <button onclick="addToCart('Foam TakeAway Food Packs', 3000)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/bag.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>Polythene Bag</h3>
+            <p class="ag">₦3,800</p>
+             <button onclick="addToCart('Polythene Bag', 3800)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/cello.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>Cellophane Bags (At Bundles)</h3>
+            <p class="ag">₦3,800</p>
+             <button onclick="addToCart('Cellophane Bags (At Bundles)', 3800)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+     <div class="products"> 
+         <div class="sale">
+        <img src="./Images/cello.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>Cellophane Bags (Per 1)</h3>
+            <p class="ag">₦400</p>
+            <button onclick="addToCart('Cellophane Bags (Per 1)', 400)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/red.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>MTN/GLO/AIRTEL 100</h3>
+            <p class="ag">₦110</p>
+             <button onclick="addToCart('MTN/GLO/AIRTEL 100', 110)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/red.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>MTN/GLO/AIRTEL 200</h3>
+            <p class="ag">₦220</p>
+             <button onclick="addToCart('MTN/GLO/AIRTEL 200', 220)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+     <div class="products"> 
+         <div class="sale">
+        <img src="./Images/red.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>MTN/GLO/AIRTEL 500</h3>
+            <p class="ag">₦550</p>
+            <button onclick="addToCart('MTN/GLO/AIRTEL 500', 550)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/red.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>MTN/GLO/AIRTEL 1000</h3>
+            <p class="ag">₦1,100</p>
+             <button onclick="addToCart('MTN/GLO/AIRTEL 1000', 1100)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/vo.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>Viva Plus Detergent Powder (Roll)</h3>
+            <p class="ag">₦1,900</p>
+             <button onclick="addToCart('Belloxi', 1900)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+
+     <div class="products"> 
+         <div class="sale">
+        <img src="./Images/vobo.jpg" alt="Xtreme GrabNGo">
+        <div class="ga">
+            <h3>Viva Plus Detergent Powder (Carton)</h3>
+            <p class="ag">₦10,800</p>
+            <button onclick="addToCart('Viva Plus Detergent Powder (Carton)', 10800)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/soki.jpg" alt="Milk Power">
+        <div class="ga">
+            <h3>So Klin Concentrated Detergent (Roll)</h3>
+            <p class="ag">₦400</p>
+             <button onclick="addToCart('So Klin Concentrated Detergent (Roll)', 400)">
+                 Add to Cart
+             </button>
+        </div>
+    </div>
+
+    <div class="sale">
+        <img src="./Images/kin.jpg" alt="Belloxi">
+        <div class="ga">
+            <h3>So Klin Concentrated Detergent (Carton)</h3>
+            <p class="ag">₦10,200</p>
+             <button onclick="addToCart('So Klin Concentrated Detergent (Carton)', 10200)">
+                Add to Cart
+             </button>
+        </div>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- Cart -->
+    <section class="cart-section">
+
+        <h2>Your Shopping Cart</h2>
+
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+
+        <h3>
+            Total: ₦<span id="cart-total">0</span>
+        </h3>
+
+        <button class="checkout-btn" onclick="checkout()">
+            Checkout
+        </button>
+
+    </section>
+
+    </section>
+    <div class="foot">
+        <div class="col-1">
+            <h3 class="ot">USEFUL LINKS</h3>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Shop</a>
+        </div>
+        <div class="col-2">
+            <h3 class="ot">NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <br>
+                <button class="ton" type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3 class="ot">CONTACT</h3>
+            <p>Uti Road, Off PTI Road,<br> Before Army Checkpoint,<br> Effurun, Delta State</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
